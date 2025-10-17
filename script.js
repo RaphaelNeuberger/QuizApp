@@ -15,7 +15,22 @@ function showQuestions() {
   document.getElementById("answer_4").innerHTML = question["answer_4"];
 }
 
+function answer(selection) {
+  let question = questions[currentQuestions];
+  console.log("Selected answer is ", selection);
+  console.log("Current question is ", question["right_answer"]);
 
-function(selection) {
+  let rightAnswer = question["right_answer"];
 
+  if (selection == question["right_answer"]) {
+    console.log("Richtige Antwort");
+    document.getElementById(selection).parentNode.classList.add("bg-success");
+  } else {
+    console.log("Falsche Antwort");
+    document.getElementById(selection).parentNode.classList.add("bg-danger");
+    document.getElementById(rightAnswer).parentNode.classList.add("bg-success");
+  }
+
+  document.getElementById('next-button').
 }
+

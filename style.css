@@ -99,6 +99,10 @@ video {
   display: block;
 }
 
+.bg-success,
+.bg-danger {
+  color: aliceblue;
+}
 /* ==============================
    🧱 LAYOUT HELPER CLASSES
    ============================== */
