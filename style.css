@@ -57,6 +57,21 @@ body {
   cursor: pointer;
   background-color: #0078ff;
 }
+
+.card-body {
+  text-align: center;
+  width: 100%;
+}
+
+.widht-100 {
+  width: 100%;
+}
+
+.final-headline {
+  font-size: 38px;
+  margin-bottom: 32px;
+}
+
 /* ==============================
    🔗 LINKS & BUTTONS
    ============================== */
